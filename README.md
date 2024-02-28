@@ -70,7 +70,7 @@ Olvasd be az adatokat az **axios** API-val és tárold el őket egy state-ben eb
 Csak pár adatot kell megjeleníteni : **id**, **title**, **category**, **description**, **price** és **thumbnnail**.
 Hozz létre egy **SingleProduct.jsx** komponenst és abban valósítsd meg a termék kártya formájú megjelenítését.
 
-![products-md](src/assets/products_md.jpg)
+![products-md](src/assets/products.jpg)
 
 ### 5.feladat- verziókezelés, GitHub repository létrehozása
 
