@@ -5,8 +5,7 @@
 Egy bolt félig kész weboldalát kellene befejezni, az alábbi követelmények szerint:
 
 - A félig kész weboldal egy  React – Vite projekt, **pnpm** csomagkezelővel létrehozva
-- A projekt megtalálható az alábbi GitHub linken:
-  [Projekt URL](https://github.com/mkatay/products.git)
+- A félig kész projektet innen klónozd le a saját gépedre a munkakönyvtáradba
 - A projekt tartalmaz pár automata tesztesetet is, melyek a Vitest keretrendszerrel vannak megvalósítva. A test mappa alatt találhatóak és ezeket nem kell/nem szabad módosítani.
 A sikeres megoldás esetén minden teszt helyesen le fog futni.A tesztesetek futtatása:
     > pnpm run test
@@ -30,8 +29,8 @@ A sikeres megoldás esetén minden teszt helyesen le fog futni.A tesztesetek fut
   - a main tartalmazzon egy **kettes szintű címsor** a minta szerint és egy **FeaturedProducts** nevű komponenst, amely megjeleníti a kiemelt termékeket
   - a kiemelt termékek adatait a projekt mappa alatt található **data.js** fájlban találjuk meg
   - a footer elemben levő bekezdés tartalma a minta szerinti szöveget tartalmazza
-  - a főoldal formázásához hozzon létre egy Home.css fájlt és abban formázzon, vagy használhatja bootstrap keretrendszert is az oldal kialakításához
-  - a főoldalon megjelenített tároló szélessége ne legyen **800px** -nél nagyobb
+  - a főoldal formázásához használhatja a bootstrap keretrendszert is de nem kötelező
+  - a főoldalon megjelenített tároló szélessége amiben a termékek megjelennek ne legyen **800px** -nél nagyobb
   - a színátmenetes háttér kialakításához és az oldalon előforduló színeknek használja a **#3498db** és a **#2ecc71** értékeket.
   ![minta MD kijelzőn](./src/assets/minta_md.jpg)
   ![minta SM kujelzőn](./src/assets/minta_sm.jpg)
@@ -73,7 +72,7 @@ Hozz létre egy **SingleProduct.jsx** komponenst és abban valósítsd meg a ter
 
 ![products-md](src/assets/products_md.jpg)
 
-### 5.feladat- verziókezelés
+### 5.feladat- verziókezelés, GitHub repository létrehozása
 
 ### 6.feladat- publikálás
 
