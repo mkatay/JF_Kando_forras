@@ -66,7 +66,7 @@ A sikeres megoldás esetén minden teszt helyesen le fog futni.A tesztesetek fut
 Készítsd el a termékeket bemutató oldalt, a **Products.jsx** komponensben.
 Az adatok az alábbi linken érhetőek el, JSON formátumban vannak:
 [products](https://raw.githubusercontent.com/mkatay/json_products/main/products)
-Olvasd be az adatokat a **fetch** vagy az **axios** API-val és tárold el őket egy state-ben ebben a komponensben.
+Olvasd be az adatokat az **axios** API-val és tárold el őket egy state-ben ebben a komponensben.
 Csak pár adatot kell megjeleníteni : **id**, **title**, **category**, **description**, **price** és **thumbnnail**.
 Hozz létre egy **SingleProduct.jsx** komponenst és abban valósítsd meg a termék kártya formájú megjelenítését.
 
@@ -76,4 +76,3 @@ Hozz létre egy **SingleProduct.jsx** komponenst és abban valósítsd meg a ter
 
 ### 6.feladat- publikálás
 
-[deployed on Netlify](https://brilliant-crisp-ec4229.netlify.app/)
